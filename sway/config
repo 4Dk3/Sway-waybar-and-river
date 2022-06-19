@@ -8,6 +8,7 @@ set $up k
 set $right l
 set $term foot
 set $menu wofi --show drun -W 600 -H 600 -I
+set $srcs grim
 set $web firefox
 set $fm thunar
 set $spotify flatpak run com.spotify.Client
@@ -57,7 +58,7 @@ font Caskaydia Cove Nerd Font :12
     bindsym $mod+d exec $disc
 
     # Open pycharm
-    bindsym $mod+s exec $py
+    bindsym $mod+s exec $srcs
 
     # Lock the screen with swaylock
     bindsym $mod+n exec swaylock -c 323d43
