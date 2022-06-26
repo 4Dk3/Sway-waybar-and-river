@@ -15,6 +15,11 @@ These are my configs for the window managers Sway and River, And also the config
 
 ![image](https://user-images.githubusercontent.com/82821885/175706099-89a161df-0eec-4dce-a574-4656777b77cf.png)
 
+# Waybar config number 3
+![20220626_00h46m56s_grim](https://user-images.githubusercontent.com/82821885/175801245-2d9a0b6a-ac85-4093-8f72-0980e61929d2.png)
+
+![20220626_00h47m38s_grim](https://user-images.githubusercontent.com/82821885/175801256-5473cf84-0614-4f60-99d3-46b86b15b9d5.png)
+
 # Dependencies.
 For a minimal functional build you'll need: 
 ·Sway
