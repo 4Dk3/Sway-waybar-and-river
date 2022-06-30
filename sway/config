@@ -7,7 +7,7 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu wofi --show drun -W 600 -H 600 -I
+set $menu fuzzel -b fd6666ff -f monoki Nerd Font -w 50 -i Qogir-dark
 set $srcs grim
 set $web chromium
 set $fm nautilus
@@ -64,7 +64,7 @@ font Caskaydia Cove Nerd Font :12
     bindsym $mod+s exec $srcs
 
     # Lock the screen with swaylock
-    bindsym $mod+n exec swaylock -c 323d43
+    bindsym $mod+n exec swaylock -c fd6666
 
     # Start your launcher
     bindsym $mod+space exec $menu
@@ -108,9 +108,11 @@ font Caskaydia Cove Nerd Font :12
 # System
 #
     # Volume control
-    bindsym $mod+f1 exec pamixer -t
-    bindsym $mod+f2 exec pamixer -d 5
-    bindsym $mod+f3 exec pamixer -i 5
+    bindsym $mod+f3 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
+    bindsym $mod+f2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% 
+    bindsym $mod+f1 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle 
+    bindsym $mod+f4 exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
+
 
     # Brightness control
     bindsym $mod+f11 exec light -U 5
@@ -210,7 +212,7 @@ bar {
     height 20
 }
 
-default_border pixel 2
+default_border pixel 0
 gaps inner 2
 gaps outer 2
 smart_gaps off
@@ -235,10 +237,10 @@ for_window [app_id="Popsicle"] floating enable
 #for_window [class="discord" instance="discord"] floating enable
 
 #### Sway Window Colors ####
-set $unfocused  #2c2e34
+set $unfocused  #000000
 set $urgent     #f8928a
-set $normal     #B4B4B4
-set $inactive   #f39660
+set $normal     #fd6666
+set $inactive   #000000
 
 # colors                    border        bg          text         indicator   chld_brdr
 client.focused              $normal     $normal     $unfocused     $normal     $normal
