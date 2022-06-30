@@ -1,0 +1,70 @@
+* {
+    font-family: FiraCode Nerd Font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0 5px 0 5px;
+    margin: 0 0 0 0;
+    text-shadow: -1px 2px #000000;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+    color: #fd6666;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock,
+#battery,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window,
+#workspaces,
+#custom-activities,
+#custom-wlogout,
+#idle_inhibitor{
+    padding: 2 6px 2 6px;
+    color: #ffffff;
+    text-shadow: -1px 2px #000000;
+}
+
+#clock{
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+#custom-activities{
+    background-color: #fd6666;
+    border-radius: 100;
+    margin: 2px 0 2px 2px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px -2px #000000;
+}
+
+#custom-wlogout{
+    color: #fd6666;
+    border-radius: 100;
+}

@@ -9,15 +9,15 @@ set $right l
 set $term foot
 set $menu wofi --show drun -W 600 -H 600 -I
 set $srcs grim
-set $web firefox
-set $fm thunar
+set $web chromium
+set $fm nautilus
 set $spotify flatpak run com.spotify.Client
-set $code code
+set $code codium
 set $disc flatpak run com.discordapp.Discord
 set $py pycharm
 
 
-output * bg ~/Wallpapers/asuka-evangelion.png stretch
+output * bg ~/Wallpapers/asuka2-mine.png stretch
 
 font Caskaydia Cove Nerd Font :12
 
@@ -29,11 +29,14 @@ font Caskaydia Cove Nerd Font :12
        natural_scroll false
        middle_emulation false
 	}
+
        input "6127:24590:PixArt_Lenovo_USB_Optical_Mouse" {
        accel_profile "flat"
 	}
-       input type:keyboard {
-       xkb_layout latam
+
+       input "type:keyboard" {
+            xkb_layout latam
+            xkb_options caps:super
 	}
 
 ### Key bindings
