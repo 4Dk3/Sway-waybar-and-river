@@ -7,9 +7,9 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu fuzzel -b fd6666ff -f monoki Nerd Font -w 50 -i Qogir-dark
+set $menu fuzzel -b fd6666ff -f monoki Nerd Font -w 50 -i Tela-pink-dark
 set $srcs grim
-set $web chromium
+set $web brave-browser
 set $fm nautilus
 set $spotify flatpak run com.spotify.Client
 set $code codium
@@ -155,8 +155,8 @@ font Caskaydia Cove Nerd Font :12
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+shift+a layout stacking
-    bindsym $mod+shift+s layout tabbed
+    bindsym $mod+shift+s layout stacking
+    bindsym $mod+shift+a layout tabbed
     bindsym $mod+shift+d layout toggle split
 
     # Make the current focus fullscreen

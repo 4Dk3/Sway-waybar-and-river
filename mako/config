@@ -1,0 +1,14 @@
+max-visible=3
+anchor=top-right
+font=mononoki Nerd Font:12
+actions=1
+icons=1
+markup=1
+padding=2
+background-color=#1d2021
+progress-color=#fd6666
+text-color=#ebdbb2
+border-color=#fd6666
+border-size=2
+border-radius=0
+default-timeout=4000

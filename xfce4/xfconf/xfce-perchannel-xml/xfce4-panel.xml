@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=9;x=684;y=21"/>
+      <property name="length" type="uint" value="50"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="16"/>
+        <value type="int" value="6"/>
+        <value type="int" value="10"/>
+        <value type="int" value="1"/>
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="background-alpha" type="uint" value="76"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.479866"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="length-adjust" type="bool" value="false"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-5" type="string" value="clock">
+      <property name="tooltip-format" type="string" value="%x"/>
+      <property name="digital-format" type="string" value="%_H:%M"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="evolution-alarm-notify"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="pragha music player"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="insync.py"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="bluetooth"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="scp-dbus-service.py"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="clipit"/>
+        <value type="string" value="dropbox"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="zoom"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="insync"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="blueman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="package update indicator"/>
+        <value type="string" value="connman-gtk"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (82%)"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (71%)"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (67%)"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (80%)"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (84%)"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="nm-applet"/>
+        <value type="string" value="org.guido-berhoerster.code.package-update-indicator"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="discord1"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="hidden-items" type="array">
+      </property>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1350;chromium.instance18323;chromium.instance1843;chromium.instance23562;chromium.instance24166;chromium.instance2535;chromium.instance2755;chromium.instance2757;chromium.instance29957;chromium.instance94828;firefox.instance12452;firefox.instance15770;firefox.instance16680;firefox.instance18760;firefox.instance19927;firefox.instance20324;firefox.instance20684;firefox.instance25871;firefox.instance2802;firefox.instance28352;firefox.instance28451;firefox.instance28601;firefox.instance28855;firefox.instance3218;firefox.instance3318;firefox.instance3392;firefox.instance3393;firefox.instance3490;firefox.instance3769;firefox.instance4079;firefox.instance4261;firefox.instance5607;firefox.instance6356;firefox.instance6364;firefox.instance7083;firefox.instance9334;spotify"/>
+    </property>
+    <property name="plugin-1" type="string" value="notification-plugin"/>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-3" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="docklike"/>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
