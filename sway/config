@@ -7,9 +7,9 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu fuzzel -b fd6666ff -f monoki Nerd Font -w 50 -i Tela-pink-dark
+set $menu fuzzel -b 0d0d0dff -f monoki Nerd Font -w 50 -i Qogir-dark
 set $srcs grim
-set $web brave-browser
+set $web firefox
 set $fm nautilus
 set $spotify flatpak run com.spotify.Client
 set $code codium
@@ -17,9 +17,9 @@ set $disc flatpak run com.discordapp.Discord
 set $py pycharm
 
 
-output * bg ~/Wallpapers/asuka2-mine.png stretch
+output * bg ~/Wallpapers/rei-wb.jpg stretch
 
-font Caskaydia Cove Nerd Font :12
+font CaskaydiaCove Nerd Font :12
 
 ### Input configuration
 
