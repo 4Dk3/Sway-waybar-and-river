@@ -1,5 +1,5 @@
 FileManager=Thunar
-MailReader=evolution
-WebBrowser=custom-WebBrowser
+MailReader=sylpheed-claws
+WebBrowser=firefox
 TerminalEmulator=custom-TerminalEmulator
 
