@@ -14,10 +14,10 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
         <value type="int" value="3"/>
+        <value type="int" value="10"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
-        <value type="int" value="10"/>
         <value type="int" value="12"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
@@ -37,6 +37,9 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (60%)"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (66%)"/>
+        <value type="string" value="wi-fi network connection “rpmd” active: rpmd (68%)"/>
         <value type="string" value="wi-fi network connection “rpmd” active: rpmd (71%)"/>
         <value type="string" value="wi-fi network connection “rpmd” active: rpmd (88%)"/>
         <value type="string" value="whatsapp-desktop-linux"/>
@@ -52,6 +55,7 @@
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="heroic1"/>
         <value type="string" value="blueman"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="whatsapp-desktop-linux1"/>
@@ -64,7 +68,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance10630;firefox.instance13575;firefox.instance16402;firefox.instance2216;firefox.instance2323;firefox.instance3192;firefox.instance3445;firefox.instance3859;firefox.instance3921;firefox.instance42588;spotify"/>
+      <property name="mpris-players" type="string" value="firefox.instance10630;firefox.instance13575;firefox.instance16402;firefox.instance16786;firefox.instance2008;firefox.instance2216;firefox.instance2323;firefox.instance27967;firefox.instance3057;firefox.instance3192;firefox.instance3259;firefox.instance3445;firefox.instance3859;firefox.instance3921;firefox.instance42588;firefox.instance6892;spotify"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
