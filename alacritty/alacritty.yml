@@ -5,20 +5,20 @@ scrolling:
 # Font configuration
 font:
   normal:
-   family: mononoki Nerd font
+   family: RobotoMono Nerd Font
    style: Regular
 
   bold:
-    family: mononoki Nerd Font
+    family: RobotoMono Nerd Font
     style: Bold
   italic:
-    family: mononoki Nerd Font
+    family: RobotoMono Nerd Font
     style: Italic
   bold_italic:
-    family: mononoki Nerd Font
+    family: RobotoMono Nerd Font
     style: Bold italic
   
-  size: 14.0
+  size: 13.0
 
    # Colors (Gruvbox dark)
 colors:
@@ -49,3 +49,9 @@ colors:
     magenta: '0xd3869b'
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
+
+cursor:
+  style:
+    shape: Beam
+  vi_mode_style:
+    shape: Beam

@@ -40,6 +40,38 @@
         <property name="image-show" type="bool" value="true"/>
         <property name="image-style" type="int" value="0"/>
       </property>
+      <property name="monitoreDP1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/dk43/Wallpapers/pink-keyboard.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/dk43/Downloads/asuka43.png"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/dk43/Downloads/asuka43.png"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/dk43/Downloads/asuka43.png"/>
+        </property>
+        <property name="workspace4" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/dk43/Downloads/asuka43.png"/>
+        </property>
+        <property name="workspace5" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/dk43/Downloads/asuka43.png"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="last" type="empty">
