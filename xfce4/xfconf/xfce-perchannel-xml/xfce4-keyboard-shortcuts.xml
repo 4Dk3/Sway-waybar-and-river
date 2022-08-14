@@ -10,7 +10,6 @@
       <property name="&lt;Alt&gt;F3" type="empty">
         <property name="startup-notify" type="empty"/>
       </property>
-      <property name="XF86LogOff" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
@@ -28,6 +27,7 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="empty"/>
       <property name="&lt;Super&gt;r" type="empty">
+        <property name="startup-notify" type="empty"/>
         <property name="XF86Calendar" type="empty"/>
         <property name="XF86Memo" type="empty"/>
         <property name="XF86Terminal" type="empty"/>
@@ -37,8 +37,8 @@
         <property name="XF86AudioPrev" type="empty"/>
         <property name="XF86AudioNext" type="empty"/>
         <property name="XF86Calculator" type="empty"/>
-        <property name="startup-notify" type="empty"/>
       </property>
+      <property name="XF86LogOff" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Super&gt;r" type="empty">
@@ -62,6 +62,7 @@
       <property name="&lt;Super&gt;F11" type="string" value="light -U 5"/>
       <property name="&lt;Super&gt;F12" type="string" value="light -A 5"/>
       <property name="&lt;Super&gt;f" type="string" value="thunar"/>
+      <property name="&lt;Super&gt;s" type="string" value="flameshot gui"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

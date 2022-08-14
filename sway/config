@@ -7,7 +7,7 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu fuzzel -b 0d0d0dff -f monoki Nerd Font -w 50 -i Qogir-dark
+set $menu wofi --show drun -I
 set $srcs grim
 set $web firefox
 set $fm nautilus
@@ -17,7 +17,7 @@ set $disc flatpak run com.discordapp.Discord
 set $py pycharm
 
 
-output * bg ~/Wallpapers/rei-wb.jpg stretch
+output * bg ~/Wallpapers/Akali.jpg stretch
 
 font CaskaydiaCove Nerd Font :12
 

@@ -1,5 +1,5 @@
 * {
-    font-family: FiraCode Nerd Font;
+    font-family: MesloLGL Nerd Font;
     font-size: 13px;
 }
 
@@ -17,7 +17,7 @@ window#waybar.hidden {
 #workspaces button {
     background-color: transparent;
     color: #ffffff;
-    padding: 0 5px 0 5px;
+    padding: 0 1px 0 1px;
     margin: 0 0 0 0;
     text-shadow: -1px 1px #000000;
 }
