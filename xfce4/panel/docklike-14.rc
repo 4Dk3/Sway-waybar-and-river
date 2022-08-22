@@ -1,0 +1,6 @@
+[user]
+indicatorStyle=2
+indicatorOrientation=1
+forceIconSize=true
+iconSize=24
+pinned=/usr/share/applications/thunar.desktop;/usr/share/applications/firefox.desktop;/var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop;/usr/share/applications/Alacritty.desktop;/usr/share/applications/visual-studio-code-url-handler.desktop;/home/dk43/.local/share/applications/epp.package.java.desktop;/var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop;/usr/share/applications/net.lutris.Lutris.desktop;/usr/share/applications/steam.desktop;

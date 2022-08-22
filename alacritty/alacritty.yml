@@ -1,5 +1,5 @@
 window:
-  opacity: 1
+  opacity: 0.7
 scrolling:
  history: 50000
 # Font configuration
@@ -8,7 +8,7 @@ font:
     family: MesloLGL Nerd Font
     style: Regular
   
-  size: 12.0
+  size: 14.0
 
    # Colors (Gruvbox dark)
    #colors:
