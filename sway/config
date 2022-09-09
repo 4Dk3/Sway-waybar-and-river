@@ -17,7 +17,7 @@ set $disc flatpak run com.discordapp.Discord
 set $py pycharm
 
 
-output * bg ~/Wallpapers/Akali.jpg stretch
+output * bg ~/Wallpapers/asuka-blue.png stretch
 
 font CaskaydiaCove Nerd Font :12
 

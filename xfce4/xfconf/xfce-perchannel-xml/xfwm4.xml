@@ -6,7 +6,7 @@
     <property name="borderless_maximize" type="bool" value="true"/>
     <property name="box_move" type="bool" value="false"/>
     <property name="box_resize" type="bool" value="false"/>
-    <property name="button_layout" type="string" value="|HMC"/>
+    <property name="button_layout" type="string" value="CHM|"/>
     <property name="button_offset" type="int" value="0"/>
     <property name="button_spacing" type="int" value="0"/>
     <property name="click_to_focus" type="bool" value="true"/>
@@ -15,9 +15,9 @@
     <property name="cycle_raise" type="bool" value="false"/>
     <property name="cycle_hidden" type="bool" value="true"/>
     <property name="cycle_minimum" type="bool" value="true"/>
-    <property name="cycle_minimized" type="bool" value="false"/>
+    <property name="cycle_minimized" type="bool" value="true"/>
     <property name="cycle_preview" type="bool" value="true"/>
-    <property name="cycle_tabwin_mode" type="int" value="0"/>
+    <property name="cycle_tabwin_mode" type="int" value="1"/>
     <property name="cycle_workspaces" type="bool" value="true"/>
     <property name="double_click_action" type="string" value="maximize"/>
     <property name="double_click_distance" type="int" value="5"/>
@@ -59,12 +59,12 @@
     <property name="snap_to_windows" type="bool" value="false"/>
     <property name="snap_width" type="int" value="10"/>
     <property name="vblank_mode" type="string" value="auto"/>
-    <property name="theme" type="string" value="Materia-dark-compact"/>
+    <property name="theme" type="string" value="vimix-dark-compact-amethyst"/>
     <property name="tile_on_move" type="bool" value="true"/>
     <property name="title_alignment" type="string" value="center"/>
     <property name="title_font" type="string" value="Inter 9"/>
     <property name="title_horizontal_offset" type="int" value="0"/>
-    <property name="titleless_maximize" type="bool" value="false"/>
+    <property name="titleless_maximize" type="bool" value="true"/>
     <property name="title_shadow_active" type="string" value="false"/>
     <property name="title_shadow_inactive" type="string" value="false"/>
     <property name="title_vertical_offset_active" type="int" value="0"/>
@@ -72,22 +72,22 @@
     <property name="toggle_workspaces" type="bool" value="false"/>
     <property name="unredirect_overlays" type="bool" value="true"/>
     <property name="urgent_blink" type="bool" value="false"/>
-    <property name="use_compositing" type="bool" value="false"/>
+    <property name="use_compositing" type="bool" value="true"/>
     <property name="workspace_count" type="int" value="6"/>
     <property name="wrap_cycle" type="bool" value="true"/>
     <property name="wrap_layout" type="bool" value="true"/>
     <property name="wrap_resistance" type="int" value="10"/>
-    <property name="wrap_windows" type="bool" value="true"/>
+    <property name="wrap_windows" type="bool" value="false"/>
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
     <property name="zoom_pointer" type="bool" value="true"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="一"/>
-      <value type="string" value="二"/>
-      <value type="string" value="三"/>
-      <value type="string" value="四"/>
-      <value type="string" value="四"/>
-      <value type="string" value="五"/>
+      <value type="string" value="1"/>
+      <value type="string" value="2"/>
+      <value type="string" value="3"/>
+      <value type="string" value="4"/>
+      <value type="string" value="5"/>
+      <value type="string" value="6"/>
     </property>
   </property>
 </channel>

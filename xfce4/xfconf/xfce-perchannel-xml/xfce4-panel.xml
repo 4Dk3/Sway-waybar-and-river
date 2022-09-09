@@ -6,32 +6,30 @@
     <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=683;y=748"/>
+      <property name="position" type="string" value="p=6;x=683;y=13"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="16"/>
-      <property name="size" type="uint" value="34"/>
+      <property name="size" type="uint" value="24"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="15"/>
         <value type="int" value="1"/>
-        <value type="int" value="14"/>
+        <value type="int" value="2"/>
+        <value type="int" value="4"/>
         <value type="int" value="3"/>
         <value type="int" value="10"/>
         <value type="int" value="6"/>
-        <value type="int" value="5"/>
-        <value type="int" value="9"/>
-        <value type="int" value="13"/>
         <value type="int" value="7"/>
+        <value type="int" value="5"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="8"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.180392"/>
-        <value type="double" value="0.203922"/>
-        <value type="double" value="0.250980"/>
-        <value type="double" value="0.671141"/>
+        <value type="double" value="0.750000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.000000"/>
       </property>
     </property>
   </property>
@@ -43,6 +41,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="network"/>
+        <value type="string" value="ibus panel"/>
         <value type="string" value="thunar"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="blueman"/>
@@ -66,6 +66,9 @@
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="WhatSie"/>
+        <value type="string" value="ulauncher"/>
         <value type="string" value="firewall-applet"/>
         <value type="string" value="vlc"/>
         <value type="string" value="nm-applet"/>
@@ -91,9 +94,6 @@
     <property name="plugin-1" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -102,12 +102,15 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance18456;firefox.instance52858;spotify"/>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+      <property name="mpris-players" type="string" value="chromium.instance21081;chromium.instance2545;chromium.instance2731;chromium.instance3311;chromium.instance3783;firefox.instance10046;firefox.instance10936;firefox.instance11429;firefox.instance11903;firefox.instance14771;firefox.instance16907;firefox.instance18456;firefox.instance18494;firefox.instance18736;firefox.instance21101;firefox.instance21740;firefox.instance21990;firefox.instance22833;firefox.instance25197;firefox.instance2719;firefox.instance27307;firefox.instance2822;firefox.instance2830;firefox.instance3111;firefox.instance3194;firefox.instance32449;firefox.instance3307;firefox.instance3783;firefox.instance52858;firefox.instance5893;firefox.instance6009;firefox.instance7842;firefox.instance8203;firefox.instance8814;firefox.instance8818;spotify;vlc"/>
     </property>
     <property name="plugin-14" type="string" value="docklike"/>
     <property name="plugin-15" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="battery"/>
   </property>
 </channel>
